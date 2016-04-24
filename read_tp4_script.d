@@ -31,7 +31,7 @@ syscall::close*:entry
 	self->stop_clock = timestamp;
 	self->elapsed = self->stop_clock - self->start_clock;
 	total = total + self->elapsed; 
-	printf("%-12s %s\n","SIZE","ELAPSED TIME");
+	printf("%-12s %s\n","TAMANHO","TEMPO TOTAL");
 	printf("%-12d %d\n",size,total);
 	flag = 0;
 }
